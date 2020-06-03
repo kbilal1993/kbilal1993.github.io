@@ -1,5 +1,5 @@
 @font-face { /*Iosevka font*/
-    font-family: "Iosevka Sparkle", sans-serif;
+    font-family: "Iosevka Sparkle";
     font-weight: 600; /*Need to find a way to use Iosevka's own weights*/
     font-style: normal;
     /*font-feature-settings: "calt" on;*/
