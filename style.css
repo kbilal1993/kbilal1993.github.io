@@ -1,8 +1,15 @@
+@font-face { /*Iosevka font*/
+    font-family: "Iosevka";
+    font-weight: normal;
+    font-style: normal;
+    srv: url('http://https://kbilal1993.github.io/iosevka-regular.ttf');
+}
+
 body {
     background-color: #E8EAF6;
 }
 body * {
-    font-family: Noto Sans, sans-serif !important;
+    font-family: "Iosevka" !important;
 }
 .title {
     margin: 5px 0px;
