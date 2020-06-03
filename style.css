@@ -1,5 +1,5 @@
 @font-face { /*Iosevka font*/
-    font-family: "Iosevka", sans-serif;
+    font-family: "Iosevka Sparkle", sans-serif;
     font-weight: 600; /*Need to find a way to use Iosevka's own weights*/
     font-style: normal;
     /*font-feature-settings: "calt" on;*/
@@ -10,7 +10,7 @@ body {
     background-color: #E8EAF6;
 }
 body * {
-    font-family: "Iosevka" !important;
+    font-family: "Iosevka Sparkle" !important;
 }
 .title {
     margin: 5px 0px;
