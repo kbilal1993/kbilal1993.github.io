@@ -1,7 +1,8 @@
 @font-face { /*Iosevka font*/
     font-family: "Iosevka";
-    font-weight: normal;
+    font-weight: 500; /*Need to find a way to use Iosevka's own weights*/
     font-style: normal;
+    font-feature-settings: "calt" on;
     srv: url('https://kbilal1993.github.io/iosevka-regular.ttf');
 }
 
