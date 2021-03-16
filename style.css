@@ -1,0 +1,145 @@
+/* Colours: http://colorpalettes.com/palette/141 */
+:root {
+  --colour1: #f5f6f7;
+  --colour2: #e8eaf5;
+}
+
+/* Raleway font */
+@font-face {
+  font-family: "raleway";
+  src: url("Raleway-Regular.ttf");
+}
+
+.wrap {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: raleway, sans-serif;
+  background-color: var(--colour1);
+}
+
+/* Material Design card */
+.card {
+  background-color: var(--colour2);
+  box-shadow: inset 1px 1px 2px 1px black;
+  padding: 5px;
+  margin: 3px;
+}
+
+.card-alt {
+  background-color: var(--colour2);
+  box-shadow: 1px 1px 2px 1px black;
+  padding: 1px 3px;
+  margin: 2px;
+}
+
+.card-alt-header {
+  background-color: var(--colour1);
+  box-shadow: 2px 2px 1px 0px black;
+  clip-path: inset(1px -5px -5px 1px);
+  padding: 1px 3px;
+  margin: 3px; 
+  margin-top: -6px;
+  margin-left: -6px;
+}
+
+/* Stack elements beside each other */
+.horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+/* Stack elements above each other */
+.vertical {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+/* Centered */
+.centered {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Left justified */
+.left {
+  align-items: flex-start;
+}
+
+.stretched {
+  justify-content: flex-start;
+  align-self: stretch;
+}
+
+.unstretched {
+  justify-content: flex-start;
+  align-self: center;
+}
+
+
+/* Overrides */
+h1 {
+  text-align: center;
+  padding; 3px;
+  margin: 3px;
+}
+
+h2 {
+  text-align: center;
+  padding: 3px;
+  margin: 3px;
+}
+
+h3 {
+  font-size: large;
+  text-align: center;
+  padding: 3px;
+  margin: 3px;
+}
+
+p {
+  padding: 3px;
+  margin: 3px;
+  text-indent: 2em;
+}
+
+/* Links are title boxes, so we don't need hyperlink styling */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+span {
+  font-weight: bold;
+}
+
+a > span {
+  color: #009900;
+}
+
+/* Change the colour of the arrow on the link if visited */
+a:visited > span {
+  color: #880000;
+}
+
+/* <a> tag but you can't click it */
+.noclick {
+  pointer-events: none;
+}
+
+a.noclick > span {
+  color: #000000;
+  display: none;
+}
+
+/* hr tags to separate parts. */
+hr {
+  visibility: hidden;
+}
+
+
