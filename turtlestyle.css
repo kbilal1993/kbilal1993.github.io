@@ -11,8 +11,18 @@ canvas {
 
 textarea {
   width: 100%;
+  resize: vertical;
+}
+
+.instructions {
+  resize: none;
 }
 
 .small_container {
   width: min-content;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
 }
