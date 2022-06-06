@@ -69,7 +69,7 @@ function page_matchgorithm() {
 function page_brickjs() {
     var temp = div();
     add(temp, link("Brick JS", "https://gitlab.com/kbilal1993/brick-js"));
-    add(temp, paragraph("Brick JS is a project I created as a means of more conveniently creating single page webapps. It is a clientside JavaScript library which creates websites almost entirely using the Document Object Model, with various wrapper functions to make everything easier. It acts as an alternative to ReactJS and AngularJS, with as few abstractions over preexisting web technologies as possible."));
+    add(temp, paragraph("Brick JS is a framework I created as a means of more conveniently creating single page webapps. It is a clientside JavaScript library which creates websites almost entirely using the Document Object Model, with various wrapper functions to make everything easier. It acts as an alternative to ReactJS and AngularJS, with as few abstractions over preexisting web technologies as possible."));
     add(temp, paragraph("In simpler terms, the purpose of Brick JS is to take features currently provided to web developers and consolidate them into one simple means to develop software. Brick JS lets us ignore HTML and CSS, and any sort of templating, in favour of web pages generated entirely through code. It has no dependencies or requirements, and can be dropped into any project without any extra work."));
     add(temp, paragraph("Brick JS was originally created as a curiosity, but is convenient enough to work with that I find more and more uses for it."));
     return temp;
@@ -96,6 +96,8 @@ function page_projects() {
 	add(temp, paragraph("A script which queries the AlAdhan REST API to find Islamic prayer times for the day. Made to be run on an Android phone with Termux, because I was unsatisfied with the available prayer time apps. Written in Racket, and can run in any Linux terminal. (I recently made an iPhone Shortcuts port of this tool, because Shortcuts is surprisingly powerful and allows users to query REST APIs.)"));
 	add(temp, link("QMK keyboard config", "https://github.com/kbilal1993/My-QMK-configs"));
 	add(temp, paragraph("Configuration files made to be used with the QMK keyboard firmware, to adjust the functionality of specially built computer keyboards. QMK allows users to define the function of each individual key, and is commonly used with custom ergonomic keyboards. My configuration sets the layout to Colemak by default, puts backspace under the left thumb and provides easy access to Esc and the arrow keys without moving away from the home row. The configurations are written in C."));
+	add(temp, link("This portfolio", "https://github.com/kbilal1993/kbilal1993.github.io"));
+	add(temp, paragraph("This portfolio itself was created using Brick JS. The entire page is generated through JavaScript's Document Object Model."));
 	return temp;
 }
 
